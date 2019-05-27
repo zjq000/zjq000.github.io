@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<style type="text/css">
+			html {
+				font-size: 100px;
+			}
+			.wrapper {
+				display: flex;
+				flex-direction: column;
+				align-content: center;
+				justify-content: space-between;
+				text-align: center;
+				padding: .12rem 0 .32rem;
+			}
+			@media screen and (max-width:374px) {
+				html {
+					font-size: 85px;
+				}
+			}
+			@media screen and (min-width:376px) and (max-width:414px) {
+				html {
+					font-size: 90px;
+				}
+			}
+
+			@media screen and (min-width:768px) {
+				html {
+					font-size: 208px;
+				}
+			}
+
+			.wra {
+				padding: .15rem .22rem 0 .22rem;
+			}
+
+			.wrapper div img {
+				width: 100%;
+
+			}
+            b {
+				font-size: .25rem;
+				padding-top: 0.16rem;
+				padding-bottom: 0.15rem;
+			}
+			.item4 {
+				margin-top: .12rem;
+			}
+			.wrap a img {
+				width: 0.55rem;
+			
+			}
+			.wrap {
+				flex-direction: row;
+				font-size: .15rem;
+				margin-top: .35rem;
+			}
+
+			.wrap a {
+				padding: 0 .45rem;
+			}
+			.item3{
+				position: relative;
+			}
+			.item3 img:nth-child(2){
+				width: 10%;
+				position: absolute;
+				top: 0.05rem;
+                right: -.15rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<b>礼吓</b>
+			<div class="item2 items">
+				<a href="订单购买页.html"><img src="img/a.png"></a>
+			</div>
+			<div class="wra">
+				<div class="item3">
+					<a href=""><img src="img/限定.png"></a>
+					<img src="img/home_pic_guajian1.png" >
+				</div>
+					
+					<img src="img/home_seg.png" class="item4 fl">
+				
+				<div class="item5">
+					<a href=""><img src="img/home_pic_tip1.png"></a>
+				</div>
+				<div class="item5">
+					<a href=""><img src="img/home_pic_tip2.png"></a>
+				</div>
+				<div class="item5">
+					<a href=""><img src="img/home_pic_tip3.png"></a>
+				</div>
+				<div class="item5">
+					<a href=""><img src="img/home_pic_tip4.png"></a>
+				</div>
+				<section class="wrap">
+					<a href="我收到的.html"><img src="img/1.png"></a>
+					<span>|</span>
+					<a href="我赠送的.html"><img src="img/2.png"></a>
+				</section>
+			</div>
+		</div>
+
+	</body>
+</html>
